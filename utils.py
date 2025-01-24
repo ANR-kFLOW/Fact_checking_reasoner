@@ -30,8 +30,10 @@ class Compute:
         return pearsonr(embedding1.cpu().numpy(), embedding2.cpu().numpy())[0]
 
     def extract_events_R(self, triples):
-        triples = ast.literal_eval(triples)
-        return [(t[0], t[1], t[2]) for t in triples]
+
+        triples = eval(triples)
+        print(triples[0],triples[1],triples[2])
+        return triples
 
 
     def analyze_claim_answer(self, text1, text2):
@@ -44,7 +46,7 @@ class Compute:
             else "PN"
         )
         pearson_corr = self.compute_pearson_correlation(text1, text2)
-        return similarity, polarity, pearson_corr
+        return [similarity,polarity,pearson_corr]
 
     def perform_ere_on_text(self, text, model_path, rebel_model_path):
 
