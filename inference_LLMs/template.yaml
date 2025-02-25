@@ -1,0 +1,18 @@
+template: |
+  Extract the relation between these events. The relations can be the following: cause, enable, prevent, intend, or no-relation.
+
+  Definition of cause: Connect an event with its effect.
+  Definition of intend: Connects an event with the effect it is intended to cause (independently if the result is achieved or not).
+  Definition of enable: Connect a condition with the event it is contributing to realize as an enabling factor.
+  Definition of prevent: Connect a Relata entity with the event for which it is the cause of not happening.
+
+
+  Extract relation for the following pairs of events:
+  event1: "{input_event1}"
+  event2: "{input_event2}"
+  Output format: Answer: relation
+  Note: Please respect the format of the output, relation can only be one of these four words, cause, enable, prevent, intend, or no-relation.
+
+input:
+  - input_event1
+  - input_event2
