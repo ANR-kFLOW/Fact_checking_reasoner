@@ -8,7 +8,7 @@
 
 ### Causlality Extraction Methods
 
-##### `Causality_extraction_across_Claim_and_Evidence/`
+##### [Causality_extraction_across_Claim_and_Evidence](./Causality_extraction_across_Claim_and_Evidence/)`
 
 This folder contains scripts for inferring causality between claims and evidence using Large Language Models (LLMs) or by training on common sense data.
 ###### `inference_LLMs/`
@@ -26,7 +26,7 @@ This folder contains Pretrained model-based approach to infer causality between 
   ```bash
   python train.py
   ```
-
+  
 ##### `causality_extraction_within_claim_and_evidence/`
      -The dataset used for training in this project is released as part of the work by [Rebboud et al. (2023)](https://hal.science/hal-04121015).
    - **Train the model on the aformentioned dataset:**
@@ -36,10 +36,11 @@ This folder contains Pretrained model-based approach to infer causality between 
 
 ### data
 Data folder contains teh use cases filtered for testing our reasoner togther with common sense trainig data 
+
+
 ## Usage
 
 1.**Choose the causlality extraction method across claim and evidence  method:**
-
 2.**Choose the causlality extraction method within claim and evidence method:**   
 3. **Run reasoning on a dataset** 
 4. **Evaluate the predictions** 
