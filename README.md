@@ -38,12 +38,10 @@ This folder contains Pretrained model-based approach to infer causality between 
 ## Usage
 
 1.**Choose the causlality extraction method across claim and evidence  method:**
-   - Use LLM-based inference (`LLM_inference.py`).
-   - Use a model trained on common sense data (`train.py`, `inference.py`).
-2.**Choose the causlality extraction method within claim and evidence method:**
-   
-3. **Run reasoning on a dataset** using `reasoner.py`.
-4. **Evaluate the predictions** with `evaluate_metrics.py`.
+
+2.**Choose the causlality extraction method within claim and evidence method:**   
+3. **Run reasoning on a dataset** 
+4. **Evaluate the predictions** 
 
 
 
