@@ -41,9 +41,12 @@ Data folder contains teh use cases filtered for testing our reasoner togther wit
 ## Usage
 
 1.**Choose the causlality extraction method across claim and evidence  method:**
+
 2.**Choose the causlality extraction method within claim and evidence method:**   
-3. **Run reasoning on a dataset** 
-4. **Evaluate the predictions** 
+
+3. **Run reasoning on a dataset**
+   
+5. **Evaluate the predictions** 
 
 
 
