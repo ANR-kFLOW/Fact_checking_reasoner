@@ -34,7 +34,8 @@ This folder contains Pretrained model-based approach to infer causality between 
   python train.py
   ```
 
-
+### data
+Data folder contains teh use cases filtered for testing our reasoner togther with common sense trainig data 
 ## Usage
 
 1.**Choose the causlality extraction method across claim and evidence  method:**
