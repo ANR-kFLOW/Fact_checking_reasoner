@@ -15,7 +15,7 @@ This folder contains scripts for inferring causality between claims and evidence
 
 - **Run inference:**
   ```bash
-  python inference_LLMs/LLM_inference.py
+  python LLM_inference.py
   ```
 
 ###### `Common_Sense-based_Causality_Extraction/`
@@ -24,12 +24,12 @@ This folder contains Pretrained model-based approach to infer causality between 
 
 - **Train the model on common sense data:**
   ```bash
-  python inference_model_based_on_sub_obj/train.py
+  python train.py
   ```
 
 ##### `causality_extraction_within_claim_and_evidence/`
      -The dataset used for training in this project is released as part of the work by [Rebboud et al. (2023)](https://hal.science/hal-04121015).
-    - Train the model on the aformentioned data:
+   - **Train the model on the aformentioned dataset:**
   ```bash
   python train.py
   ```
