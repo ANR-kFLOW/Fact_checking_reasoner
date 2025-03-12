@@ -18,7 +18,7 @@ This folder contains scripts for inferring causality between claims and evidence
   python LLM_inference.py
   ```
 
-###### [Common Sense-based Causality Extraction](/Causality_extraction_across_Claim_and_Evidence/Common_Sense-based_Causality_Extraction/)
+###### [Common Sense-based Causality Extraction](Fact_checking_reasoner/Causality_extraction_across_Claim_and_Evidence/Common_Sense-based_Causality_Extraction/)
 
 This folder contains Pretrained model-based approach to infer causality between claim and evidence events using common sense data.
 
