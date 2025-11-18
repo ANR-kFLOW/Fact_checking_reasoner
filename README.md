@@ -35,7 +35,7 @@ This folder contains Pretrained model-based approach to infer causality between 
   ```
 
 ### [data](./data/)
-Data folder contains teh use cases filtered for testing our reasoner togther with common sense trainig data 
+Data folder contains the use cases filtered for testing our reasoner togther with common sense trainig data 
 
 
 ## Usage
