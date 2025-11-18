@@ -6,7 +6,7 @@
 - **`reasoner.py`** - Applies the reasoner to analyze the relationships between claims and evidence based on similarity, polarity, and causality.
 - **`evaluate_metrics.py`** - Evaluates the performance of the predictions using appropriate metrics.
 
-### Causlality Extraction Methods
+### Causality Extraction Methods
 
 ##### [Causality_extraction_across_Claim_and_Evidence](./Causality_extraction_across_Claim_and_Evidence/)`
 
@@ -40,9 +40,9 @@ Data folder contains teh use cases filtered for testing our reasoner togther wit
 
 ## Usage
 
-1.**Choose the causlality extraction method across claim and evidence  method**
+1.**Choose the Causality extraction method across claim and evidence  method**
 
-2.**Choose the causlality extraction method within claim and evidence method** 
+2.**Choose the Causality extraction method within claim and evidence method** 
 
 3.**Run reasoning on a dataset** 
 
