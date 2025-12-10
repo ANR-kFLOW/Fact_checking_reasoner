@@ -1,4 +1,12 @@
-# Fact_checking_reasoner
+# Causal Reasoner for Fact-Checking
+
+A causal explanation-based verdict prediction system that relies on semantically-precise event relations (cause, prevent, intend, enable), derived from the [FARO ontology](https://anr-kflow.github.io/faro/). The approach only applies to claims that include at least one causal relation between events.
+
+The full description of this work is contained in the [EXTENDED VERSION of the accepted KNLP/SAC'26 paper](KNLP_2026_Causal_Reasoning_for_Fact_Checking - extended version.pdf).
+
+For citing this work, please use ([bibtex](rebboud2026causalfactcheck.bib)):
+
+> Youssra Rebboud, Pasquale Lisena, and Raphael Troncy. 2026. Integrating Causal Reasoning into Automated Fact-Checking. In The 41st ACM/SIGAPP Symposium on Applied Computing (SAC ’26), March 23–27, 2026, Thessaloniki, Greece. ACM, New York, NY, USA, 3 pages. https://doi.org/10.1145/3748522.3779831
 
 
 ### Main Scripts

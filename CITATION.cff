@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this resource, please cite it as below."
+title: "Causal Reasoner for Fact-Checking"
+url: https://github.com/ANR-kFLOW/Fact_checking_reasoner
+date-released: 2025-12-10
+type: software
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Rebboud"
+      given-names: "Youssra"
+      orcid: "https://orcid.org/0000-0003-3507-5646"
+      email: youssra.rebboud@eurecom.fr
+    - family-names: "Lisena"
+      given-names: "Pasquale"
+      orcid: "https://orcid.org/0000-0003-3094-5585"
+      email: pasquale.lisena@eurecom.fr
+    - family-names: "Troncy"
+      given-names: "Raphael"
+      orcid: "https://orcid.org/0000-0003-0457-1436"
+  title: "Integrating Causal Reasoning into Automated Fact-Checking"
+  conference:
+    name: "The 41st ACM/SIGAPP Symposium on Applied Computing"
+  collection-title: "SAC '26"
+  publisher: "ACM"
+  month: 3
+  year: 2026
