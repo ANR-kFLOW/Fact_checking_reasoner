@@ -2,7 +2,11 @@
 
 A causal explanation-based verdict prediction system that relies on semantically-precise event relations (cause, prevent, intend, enable), derived from the [FARO ontology](https://anr-kflow.github.io/faro/). The approach only applies to claims that include at least one causal relation between events.
 
-The full description of this work is contained in the [EXTENDED VERSION of the accepted KNLP/SAC'26 paper](KNLP_2026_Causal_Reasoning_for_Fact_Checking-extended.pdf).
+The **FULL DESCRIPTION** of this work is contained in the [extended version](KNLP_2026_Causal_Reasoning_for_Fact_Checking-extended.pdf) of the accepted KNLP/SAC'26 paper.
+
+![image](pipeline_schema.png)
+
+
 
 For citing this work, please use ([bibtex](rebboud2026causalfactcheck.bib)):
 
